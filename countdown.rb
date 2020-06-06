@@ -12,6 +12,6 @@ end
 
 def countdown_with_sleep (time)
   if time > 0
-    sleep(1.seconds)
+    sleep 1
   end
 end
