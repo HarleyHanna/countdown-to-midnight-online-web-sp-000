@@ -5,8 +5,6 @@ def countdown (seconds)
     seconds.to_s
     puts "#{seconds} SECOND(S)!"
     seconds -= 1
-    if seconds == 0
-      puts "HAPPY NEW YEAR!"
-    end
   end
+  puts "HAPPY NEW YEAR!"
 end
