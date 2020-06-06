@@ -5,11 +5,13 @@ def countdown (seconds)
     seconds.to_s
     puts "#{seconds} SECOND(S)!"
     seconds -= 1
-    countdown_with_sleep()
+    countdown_with_sleep(seconds)
   end
   return "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep (seconds)
-  sleep(1.seconds)
+def countdown_with_sleep (time)
+  if time < 0
+    sleep(1.seconds)
+  end
 end
