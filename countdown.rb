@@ -14,7 +14,7 @@ def countdown_with_sleep (seconds)
     seconds.to_s
     puts "#{seconds} SECOND(S)!"
     seconds -= 1
-    if seconds > 0
+    if seconds > -1
       sleep 1
     end
   end
