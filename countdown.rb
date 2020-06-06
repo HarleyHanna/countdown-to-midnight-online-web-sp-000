@@ -4,6 +4,6 @@ def countdown (seconds)
   while seconds > 0
     seconds.to_s
     puts "#{seconds} SECONDS!"
-    seconds -=
+    seconds -= 1
   end
 end
